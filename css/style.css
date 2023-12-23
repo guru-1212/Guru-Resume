@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
-* {
+/* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,12 +10,11 @@
   border: none;
   text-transform: capitalize;
   transition: all 0.2s linear;
-}
-html {
-  /* font-size: 62.5%; */
+} */
+/* html {
   overflow-x: hidden;
   scroll-behavior: smooth;
-}
+} */
 body {
   background: #f7f7f7;
   font-family: "Poppins", sans-serif;
@@ -52,11 +51,11 @@ html::-webkit-scrollbar-thumb {
   top: -120%;
 }
 @media (max-width: 420px) {
-  .home .content h2 {
+  /* .home .content h2 {
     font-size: 7rem !important;
     font-weight: 800 !important;
     color: #002057;
-  }
+  } */
 }
 header {
   position: fixed;
@@ -97,6 +96,9 @@ header .logo i {
 header .logo:hover {
   color: #fc8c05;
 }
+.typing-text{
+  color: #fc8c05;
+}
 header .navbar ul {
   list-style: none;
   display: flex;
@@ -130,11 +132,12 @@ header .navbar ul li a:hover {
   display: none;
 }
 @media (max-width: 768px) {
-  .home .content h2 {
+ .home .content h2 {
     font-size: 7rem !important;
     font-weight: 800 !important;
     color: #002057;
-}
+} 
+
   #menu {
     display: block;
   }
@@ -206,11 +209,11 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
 }
-.home .content {
+/* .home .content {
   flex: 1 1 10rem;
   padding-top: 1rem;
   z-index: 1;
-}
+} */
 .home .image {
   flex: 1 1 40rem;
   z-index: 1;
@@ -220,7 +223,7 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 .home .image img {
-  width: 30%;
+  width: 50%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -229,28 +232,26 @@ header .navbar ul li a:hover {
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-.home .content h2 {
-  font-size: 2rem;
+ .home .content h2 {
   font-weight: 800;
   color: #002057;
-}
-.home .content h2 span {
-  font-size: 2rem;
+} 
+ .home .content h2 span {
   font-weight: 800;
   color: #ff7b00;
-}
-.home .content p {
+} 
+/* .home .content p {
   font-size: 2.5rem;
   color: #000;
   font-weight: 600;
   padding: 1rem 0;
-}
-.home .content p span {
+} */
+/* .home .content p span {
   font-size: 2.5rem;
   color: rgb(148, 8, 8);
   font-weight: 600;
   padding: 1rem 0;
-}
+} */
 .home .btn {
   margin-top: 1rem;
   position: absolute;
@@ -294,19 +295,26 @@ header .navbar ul li a:hover {
   margin-bottom: 14px;
 }
 .social-icons a {
+  text-align: center !important;
+  /* display: flex !important; */
+  align-items: center;
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
   color: #00d9ff;
   background-color: #09011b;
-  width: 44px;
-  height: 44px;
+  width: 60px;
+  height: 60px;
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+.social-icons a i{
+  top: 10px;
+  position: relative;
 }
 .social-icons a:active,
 .social-icons a:focus,
