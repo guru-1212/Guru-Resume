@@ -207,7 +207,7 @@ header .navbar ul li a:hover {
   width: 100%;
 }
 .home .content {
-  flex: 1 1 40rem;
+  flex: 1 1 10rem;
   padding-top: 1rem;
   z-index: 1;
 }
@@ -226,12 +226,12 @@ header .navbar ul li a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h2 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #002057;
 }
 .home .content h2 span {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #ff7b00;
 }
