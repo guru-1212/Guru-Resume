@@ -19,7 +19,6 @@ html {
 body {
   background: #f7f7f7;
   font-family: "Poppins", sans-serif;
-  overflow-y: hidden;
 }
 
 *::selection {
@@ -213,7 +212,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 40%;
+  width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -223,12 +222,12 @@ header .navbar ul li a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 800;
   color: #002057;
 }
 .home .content h2 span {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 800;
   color: #ff7b00;
 }
@@ -332,7 +331,7 @@ header .navbar ul li a:hover {
     margin-top: 12rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    margin-top: 0rem;
   }
   .home .content p {
     font-size: 2.2rem;
