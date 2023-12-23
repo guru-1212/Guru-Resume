@@ -207,17 +207,19 @@ header .navbar ul li a:hover {
   width: 100%;
 }
 .home .content {
-  flex: 1 1 10rem;
   padding-top: 1rem;
   z-index: 1;
 }
 .home .image {
-  flex: 1 1 40rem;
   z-index: 1;
 }
+.main_content_div{
+  display: flex;
+  flex-wrap: wrap;
+}
 .home .image img {
-  width: 70%;
-  margin-left: 6rem;
+  width: 50%;
+  /* margin-left: 6rem; */
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
