@@ -84,9 +84,9 @@ var typed = new Typed(".typing-text", {
     "CMS"
 ],
     loop: true,
-    typeSpeed: 50,
-    backSpeed: 5,
-    backDelay: 500,
+    typeSpeed: 10,
+    backSpeed: 10,
+    backDelay: 400,
 });
 // <!-- typed js effect ends -->
 
