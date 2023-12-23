@@ -233,12 +233,17 @@ header .navbar ul li a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
  .home .content h2 {
+  font-size: 5rem;
   font-weight: 800;
   color: #002057;
 } 
+.para{
+  font-size: 4rem;
+}
  .home .content h2 span {
   font-weight: 800;
   color: #ff7b00;
+  font-size: 5rem;
 } 
 /* .home .content p {
   font-size: 2.5rem;
@@ -256,7 +261,7 @@ header .navbar ul li a:hover {
   margin-top: 1rem;
   position: absolute;
   line-height: 0;
-  padding: 1.6rem 3rem;
+  padding: 2.6rem 9rem;
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
@@ -298,13 +303,14 @@ header .navbar ul li a:hover {
   text-align: center !important;
   /* display: flex !important; */
   align-items: center;
-  font-size: 2rem;
+  font-size: 4rem;
   display: inline-block;
   line-height: 44px;
   color: #00d9ff;
   background-color: #09011b;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
@@ -313,7 +319,7 @@ header .navbar ul li a:hover {
   transition: all 0.2s linear;
 }
 .social-icons a i{
-  top: 10px;
+  top: 16px;
   position: relative;
 }
 .social-icons a:active,
